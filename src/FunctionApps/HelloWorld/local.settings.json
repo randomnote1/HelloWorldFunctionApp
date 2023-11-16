@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "DebugPreference": "Continue",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "VerbosePreference": "Continue",
+    "WEBSITE_LOAD_USER_PROFILE": "1",
+    "WEBSITE_RUN_FROM_PACKAGE": "0"
+  }
+}

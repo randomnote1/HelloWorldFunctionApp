@@ -1,0 +1,21 @@
+{
+    "scriptFile": "../lib/HelloWorld.psm1",
+    "entryPoint": "Get-PublicIPAddress",
+    "bindings": [
+        {
+            "authLevel": "function",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "Request",
+            "methods": [
+                "get",
+                "post"
+            ]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "Response"
+        }
+    ]
+}
