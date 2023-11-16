@@ -426,3 +426,8 @@ terraform.rc
 
 # Don't track items in the build directory
 build/*
+
+# Don't track the tfstate file
+terraform.tfstate
+
+.terraform/

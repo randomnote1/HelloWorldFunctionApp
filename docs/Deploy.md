@@ -33,5 +33,5 @@
 1. Apply the terraform configuration
 
     ```powershell
-    terraform apply -var-file="..\..\Environments\<environment name>.tfvars"
+    terraform apply -var-file="..\Environments\<environment name>.tfvars"
     ```

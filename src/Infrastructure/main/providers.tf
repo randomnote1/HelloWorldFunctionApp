@@ -1,4 +1,6 @@
 terraform {
+  backend "local" {}
+
   required_providers {
     azuread = {
       source = "hashicorp/azuread"
