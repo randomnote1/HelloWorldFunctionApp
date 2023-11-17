@@ -429,5 +429,6 @@ build/*
 
 # Don't track the tfstate file
 terraform.tfstate
+terraform.tfstate.backup
 
 .terraform/
